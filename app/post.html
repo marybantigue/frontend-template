@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MaryVentures</title>
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <link rel="stylesheet" href="/css/fontawesome/css/fontawesome-all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat:400,700,800" rel="stylesheet">
+  </head>
+  <body>
+    <div id="parent">
+      <section id="sidebar">
+        <button type="button" name="button" onclick="closeNav()" class="closeBtn"><i class="fas fa-times"></i>
+        </button>
+        <div class="logo">
+          <a href="/">MARY<span>VENTURES</span></a>
+        </div>
+        <div class="about">
+          <div class="avatar">
+            <img src="images/avatar.jpg" alt=""/>
+          </div>
+          <p class="bio">
+            Hello! My name is Mary Bantigue and I’m a web developer from the Philippines. This is my personal blog about tech, design, travel and art.
+          </p>
+          <div class="social">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+
+        <div class="search">
+          <p>Search this blog</p>
+          <div class="search-button">
+            <input type="text" name="email" value="" placeholder="Search"/>
+            <button type="submit" name="button"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+        <div class="newsletter">
+          <p>Subscribe to my newsletter</p>
+          <input type="text" name="email" value="" placeholder="Enter your email address"/>
+          <button type="submit" name="button">SUBSCRIBE</button>
+        </div>
+        <div class="copyright">
+          © MaryBantigue2018
+        </div>
+      </section>
+      <section id="main">
+        <div class="mobile-header">
+          <button type="button" name="button" onclick="openNav()"><i class="fas fa-bars"></i>
+          </button>
+          <div class="logo">
+            <a href="/">MARY<span>VENTURES</span></a>
+          </div>
+        </div>
+        <article class="post-article">
+          <h1 class="post-title">Lorem ipsum dolor sit amet, consectetur</h1>
+          <div class="post-details">
+            <p class="date"><i class="fas fa-calendar-alt"></i> January 2, 2018</p>
+            <p class="tags"><i class="fas fa-tags"></i> <a href="#">CSS</a> / <a href="#">Javascript</a></p>
+          </div>
+          <div class="post-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in risus ac sem molestie egestas in ut sapien. Phasellus ac quam eu urna feugiat semper. Aliquam at tellus a tellus vestibulum ullamcorper mollis sed quam. Curabitur in varius erat, at commodo enim. Sed ultricies laoreet tellus, facilisis placerat elit iaculis id. Phasellus finibus nisi nec ligula tristique dapibus. Maecenas dapibus tincidunt odio et sollicitudin. Etiam mollis libero a nibh molestie tempus. Nulla eget velit vitae tortor egestas imperdiet sit amet at sapien. Aliquam quis dapibus sem. In dictum nulla massa, <a href="#">fringilla tempor odio lacinia nec</a>. Mauris sagittis nisl lorem, a mollis augue cursus eu. In pellentesque varius commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi posuere turpis commodo, pharetra ex ut, laoreet nisl. Aliquam ac accumsan nunc, sit amet blandit quam.
+
+            <h1>This is a heading</h1>
+            <h2>This is a heading</h2>
+            <h3>This is a heading</h3>
+            <h4>This is a heading</h4>
+            <h5>This is a heading</h5>
+            <h6>This is a heading</h6>
+
+            <p>Donec facilisis dolor justo, a volutpat metus hendrerit sed. Phasellus non sollicitudin eros, a venenatis est. Nunc tempus est non enim maximus consectetur. Ut est turpis, commodo commodo justo eu, porttitor tempor urna. Nunc a sem dolor. Praesent ut venenatis odio. Praesent tristique dignissim rutrum. Praesent vulputate malesuada risus. Donec at augue a risus fermentum maximus. Cras suscipit placerat elit mollis facilisis.</p>
+
+            <img src="images/sample.jpg" alt="" />
+            <ol>
+              <li>Proin a libero fermentum elit posuere fringilla eget eu orci. </li>
+              <li>Mauris lobortis ullamcorper varius. </li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+            </ol>
+            <ul>
+              <li>Proin a libero fermentum elit posuere fringilla eget eu orci. </li>
+              <li>Mauris lobortis ullamcorper varius. </li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+            </ul>
+
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+            </blockquote>
+
+            <pre>
+              <code class="lang-js">
+                <span class="hljs-keyword">var</span> foo = <span class="hljs-string">'bar'</span>;
+                <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">baz</span><span class="hljs-params">(s)</span> </span>{
+                  <span class="hljs-keyword">return</span> foo + <span class="hljs-string">':'</span> + s;
+                }
+              </code>
+            </pre>
+          </div>
+        </article>
+        <div class="post-list">
+          <div class="post-item">
+            <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+            <div class="post-details">
+              <p class="date"><i class="fas fa-calendar-alt"></i> January 2, 2018</p>
+              <p class="tags"><i class="fas fa-tags"></i> <a href="#">CSS</a> / <a href="#">Javascript</a></p>
+            </div>
+            <p class="post-excerpt">
+              Proin a libero fermentum elit posuere fringilla eget eu orci. Mauris lobortis ullamcorper varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nulla in justo varius aliquam. Fusce faucibus, odio in aliquet faucibus, elit lacus cursus sem, euismod cursus urna ligula non lorem.
+            </p>
+            <button type="button" name="button">READ MORE</button>
+          </div>
+          <div class="post-item">
+            <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+            <div class="post-details">
+              <p class="date"><i class="fas fa-calendar-alt"></i> January 2, 2018</p>
+              <p class="tags"><i class="fas fa-tags"></i> <a href="#">CSS</a> / <a href="#">Javascript</a></p>
+            </div>
+            <p class="post-excerpt">
+              Proin a libero fermentum elit posuere fringilla eget eu orci. Mauris lobortis ullamcorper varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nulla in justo varius aliquam. Fusce faucibus, odio in aliquet faucibus, elit lacus cursus sem, euismod cursus urna ligula non lorem.
+            </p>
+            <button type="button" name="button">READ MORE</button>
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+
+    <script>
+    function openNav() {
+        var sidebar = document.getElementById("sidebar");
+        sidebar.style.width = "350px";
+        sidebar.style.padding = "30px";
+    }
+
+    function closeNav() {
+        var sidebar = document.getElementById("sidebar");
+        sidebar.style.width = "0";
+        sidebar.style.padding = "0";
+    }
+    </script>
+  </body>
+</html>
